@@ -7,7 +7,8 @@ const Counter = () => {
     const dispatch = useDispatch()
     return (
         <>
-            <h2 className="text-center mt-5">REDUX-REACT</h2>
+            <h2 className="text-center mt-5">React-Redux-Hooks-useSelector-useDispatch
+</h2>
             <div className="col-6 offset-3 my-5 bg-dark-subtle p-5 rounded-2 shadow-lg text-center">
                 <h3 className="mb-3">Counter: {counter}</h3>
                 <button onClick={() => dispatch(incrementCounter())} className="btn btn-success mx-2 shadow-sm">Increment</button>
